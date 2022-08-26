@@ -1,2 +1,1 @@
-# js-mail-dadi
-Exercise Boolean: Mail Dadi
+# Exercise Boolean: Mail Dadi
