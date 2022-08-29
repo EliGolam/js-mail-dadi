@@ -1,0 +1,15 @@
+/* ************************************************************************ */
+/*#region UTITLITIES */
+.ms_die, 
+.play-btn {
+    aspect-ratio: 1 / 1;
+}
+/*#endregion UTILITIES */
+
+/*#region: LAYOUT */
+body > .container {
+    display: flex;
+    min-height: 50vh;
+    place-items: center;
+}
+/*#endregion: LAYOUT */

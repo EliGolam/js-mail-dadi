@@ -1,0 +1,77 @@
+/* Root pseudoclass custom properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+/* These are some generic design choices for colour schemes, fonts, gutters and gaps */
+
+:root {
+    /* COLOR SCHEME */
+    --clr-primary: #abd699;
+    --clr-secondary: #75c9b7;
+    --clr-tertiary: #c7ddcc;
+    --clr-accent: #ffe26a;
+    --clr-dark: #16123f;
+
+    --clr-black: #000000;
+    --clr-dark-grey: #282828;
+    --clr-grey: #808080;
+    --clr-light-grey: #D2D2D2;
+    --clr-white: #FDFDFD;
+
+    /* FONT */
+    /* font: font-style font-variant font-weight font-size/line-height font-family; */
+    --fontfamily-default: 'Montserrat', Helvetica, Arial, sans-serif;
+
+    --fs-1: 5rem;
+    --fs-2: 4rem;
+    --fs-3: 3rem;
+    --fs-4: 2rem;
+    --fs-5: 1rem;
+    --fs-6: .6rem;
+
+    --fw-black: 900;
+    --fw-bold: 600;
+    --fw-regular: 400;
+    --fw-light: 200;
+    --fw-thin: 100;
+
+    /* SPACING */
+    --flow-spacing: 1em;
+
+    --gap-1: 1rem;
+    --gap-2: 1.5rem;
+    --gap-3: 3rem;
+
+    --content-width: 900px; 
+
+    --sm-breakpoint: 576px;
+    --md-breakpoint: 768px;
+    --lg-breakpoint: 992px;
+    --xl-breakpoint: 1200px;
+    --xxl-breakpoint: 1400px;
+}
+
+body {
+    font-family: var(--fontfamily-default);
+    color: var(--clr-tertiary);
+    background-color: var(--clr-dark);
+
+    min-height: 100vh;
+}
+
+.bg-clr-primary {
+    background-color: var(--clr-primary);
+    color: var(--clr-dark);
+}
+
+.bg-clr-secondary {
+    background-color: var(--clr-secondary);
+    color: var(--clr-dark);
+}
+
+.bg-clr-tertiary {
+    background-color: var(--clr-tertiary);
+    color: var(--clr-dark);
+}
+
+.bg-clr-accent {
+    background-color: var(--clr-accent);
+    color: var(--clr-dark);
+}
